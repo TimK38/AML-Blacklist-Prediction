@@ -1,0 +1,158 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch 模型檔案
+*.pth
+*.pt
+*.bin
+*.pkl
+*.pickle
+
+# 資料檔案
+*.csv
+*.json
+*.xlsx
+*.xls
+*.tsv
+*.txt
+*.parquet
+
+# 資料目錄
+data/
+datasets/
+raw_data/
+processed_data/
+
+# 模型目錄
+model/
+models/
+checkpoints/
+saved_models/
+weights/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# 環境變數
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 設定
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# 日誌檔案
+*.log
+logs/
+log/
+
+# 暫存檔案
+tmp/
+temp/
+*.tmp
+*.temp
+
+# 快取檔案
+cache/
+.cache/
+*.cache
+
+# 輸出檔案
+output/
+outputs/
+results/
+
+# 實驗追蹤
+mlruns/
+runs/
+wandb/
+tensorboard/
+
+# 壓縮檔案
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 備份檔案
+*.bak
+*.backup
+*.old
+
+# 特定於專案的忽略
+# 競賽資料
+競賽資料/
+competition_data/
+
+# 預訓練模型
+bert-*/
+transformers_cache/
+
+# 大型檔案
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# 圖片檔案（如果不需要版本控制）
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# 但保留 README 中引用的圖片
+!螢幕快照*.png
+!screenshot*.png
+!image*.png
